@@ -32,7 +32,7 @@ const AuthForms = ({type}:{type:string}) => {
  const formSchema=authFormSchema(type);
 
          // 1. Define your form.
-  const form = useForm<z.infer<typeof ormSchema>>({
+  const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
       email : "",

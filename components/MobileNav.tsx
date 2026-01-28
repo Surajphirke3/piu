@@ -11,7 +11,7 @@ import {
 import Image from "next/image"
 import React from 'react'
 import Link from "next/link"
-import { sidebarLinks } from "@/index"
+import { sidebarLinks } from "@/constants"
 import { usePathname } from 'next/navigation'
  
 import { cn } from '@/lib/utils'
